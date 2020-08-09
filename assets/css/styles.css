@@ -168,3 +168,36 @@ section {
     max-width: 100%;
     max-height: 100%;
 }
+
+/* media query */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 25px 15px;
+    }
+    .content-box {
+        font-size: 0.8em;
+        flex: 1 100%;
+    }
+    .section-box {
+        flex: 1 100%;
+    }
+    .section-box h2 {
+        font-size: 1em;
+        flex: 1 100%;
+    }
+    .flex-container {
+        flex: 1 100%;
+        text-align: center;
+        flex-direction: row;
+        flex-flow: wrap;
+        justify-items: center;
+        align-content: center;
+    }
+    .content-box p {
+        flex: 100%;
+    }
+    .border-right {
+        border-right: none;
+        border-bottom: 2px solid var(--primary-color);
+    }
+}
