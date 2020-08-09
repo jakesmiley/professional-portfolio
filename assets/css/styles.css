@@ -162,6 +162,13 @@ section {
 .run-buddy img {
     max-height: 100%;
     max-width: 100%;
+    z-index: 50;
+    transition: 0.5s;
+}
+.run-buddy img:hover {
+    background: teal;
+    z-index: 55;
+    opacity: 0.7;
 }
 .horiseon {
     color: var(--secondary-color);
@@ -171,6 +178,13 @@ section {
 .horiseon img {
     max-width: 100%;
     max-height: 100%;
+    z-index: 50;
+    transition: 0.5s;
+}
+.horiseon img:hover {
+    background: teal;
+    z-index: 55;
+    opacity: 0.7;
 }
 .content-box a {
     color: var(--secondary-color);
