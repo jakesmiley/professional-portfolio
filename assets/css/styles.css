@@ -63,7 +63,7 @@ header nav ul a {
 }
 
 section {
-    padding: 50px;
+    padding: 30px;
 }
 
 /* hero */
@@ -156,7 +156,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding-left: 50px;
+    padding-left: 35px;
     justify-content: space-between;
 }
 
@@ -211,6 +211,7 @@ section {
 
 .content-box a {
     color: var(--secondary-color);
+    text-decoration: none;
 }
 
 /* media query */
